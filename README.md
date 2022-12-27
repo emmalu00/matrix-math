@@ -41,7 +41,7 @@ The user is prompted to enter a selection, and the results of the selection are 
 
 ***
 
-# Matrix Class
+## Matrix Class
 
 The _Matrix class_ is a general class that represents a matrix. It contains private fields for the number of rows, number of columns, and a two-dimensional array of the matrix values. It also contains a constructor that takes the number of rows and columns as parameters, initializes the fields, and allocates space for the two-dimensional array. The methods of the matrix class are discussed below. 
 
