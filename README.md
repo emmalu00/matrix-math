@@ -43,7 +43,7 @@ Files _matrix1.txt_, _matrix2.txt_, _matrix3.txt_, and _matrix4.txt_ can be used
 
 ## Coding Specifications & Software Architecture
 ### The ApplicationIO Class
-`ApplictionIO` handles all user input and output. Once the program has been run through the command line, `ApplicationIO` reads in the matrices from the text file, and gives the user the following prompt: 
+`ApplicationIO` handles all user input and output. Once the program has been run through the command line, `ApplicationIO` reads in the matrices from the text file, and gives the user the following prompt: 
 
 > `Enter (p)rint, (a)dd, (s)ubtract, (m)ultiply, (t)ranspose, or (q)uit:`
 
