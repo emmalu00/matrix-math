@@ -1,7 +1,7 @@
+# matrix-math
 ## About
 This program reads an input file containing two matrices and then repeatedly asks the user if they want to print, add, subtract, multiply, transpose, or quit. 
 
-### Running the Program
 The program must be compiled through the command line with the following statement:
 
 `javac ApplicationIO.java`
@@ -11,6 +11,8 @@ The program must then be run through the command line with the following stateme
 `java ApplicationIO <filename.txt>`
 
 where **_filename.txt_** is the input text file. If the user does not enter an input text file as a command line argument, the program will produce an error message and exit.
+
+_It is recommended to clone this repository to your local machine through VS Code._
 
 ## Format of Input Text Files
 Input files must be formatted the following way: 
@@ -39,7 +41,7 @@ Input files must be formatted the following way:
 
 Files **_matrix1.txt_**, **_matrix2.txt_**, **_matrix3.txt_**, and **_matrix4.txt_** can be used to test the program.
 
-## Coding Specifications & Software Architecture
+## Software Architecture
 ### The ApplicationIO Class
 This class handles all user input and output. Once the program has been run through the command line, `ApplicationIO` reads in the matrices from the text file, and gives the user the following prompt: 
 
