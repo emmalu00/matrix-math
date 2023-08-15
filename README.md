@@ -2,14 +2,15 @@
 This program reads an input file containing two matrices and then repeatedly asks the user if they want to print, add, subtract, multiply, transpose, or quit. 
 
 ### Running the Program
-The name of an input file is given as a command-line argument. The program must run through the command line with the format:
+The program must be compiled through the command line with the following statement:
 
-> `javac ApplicationIO.java`
+`javac ApplicationIO.java`
 
-followed by:
+The program must then be run through the command line with the following statement:
 
-> `java ApplicationIO <filename.txt>`
+`java ApplicationIO <filename.txt>`
 
+where **_filename.txt_** is the input text file. If the user does not enter an input text file as a command line argument, the program will produce an error message and exit.
 
 ## Format of Input Text Files
 Input files must be formatted the following way: 
@@ -36,14 +37,11 @@ Input files must be formatted the following way:
 
 > **_last line of matrix2, with elements separated by spaces_**
 
-### Example of Input Text File
-![image](https://github.com/emmalu00/matrix-math/assets/106994328/81bd05ae-e395-427b-924c-b8497474c3ee)
-
-Files _matrix1.txt_, _matrix2.txt_, _matrix3.txt_, and _matrix4.txt_ can be used to test the program.
+Files **_matrix1.txt_**, **_matrix2.txt_**, **_matrix3.txt_**, and **_matrix4.txt_** can be used to test the program.
 
 ## Coding Specifications & Software Architecture
 ### The ApplicationIO Class
-`ApplicationIO` handles all user input and output. Once the program has been run through the command line, `ApplicationIO` reads in the matrices from the text file, and gives the user the following prompt: 
+This class handles all user input and output. Once the program has been run through the command line, `ApplicationIO` reads in the matrices from the text file, and gives the user the following prompt: 
 
 > `Enter (p)rint, (a)dd, (s)ubtract, (m)ultiply, (t)ranspose, or (q)uit:`
 
