@@ -1,6 +1,10 @@
 # matrix-math
+
 ## About
 This program reads an input file containing two matrices and then repeatedly asks the user if they want to print, add, subtract, multiply, transpose, or quit. 
+
+### Running the Program
+_It is recommended to clone this repository to your local machine through VS Code._
 
 The program must be compiled through the command line with the following statement:
 
@@ -11,8 +15,6 @@ The program must then be run through the command line with the following stateme
 `java ApplicationIO <filename.txt>`
 
 where **_filename.txt_** is the input text file. If the user does not enter an input text file as a command line argument, the program will produce an error message and exit.
-
-_It is recommended to clone this repository to your local machine through VS Code._
 
 ## Format of Input Text Files
 Input files must be formatted the following way: 
